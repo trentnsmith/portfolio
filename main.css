@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    line-height: 1.5;
+}
+
+nav,
+footer {
+    padding: 1% 0;
+    background-color: rgb(88, 88, 88);
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+header {
+    padding: 12% 0;
+}
+
+section {
+    min-height: 200px;
+    padding: 6% 0;
+    background-color: rgb(155, 153, 153) 
+}
+
+section:nth-child(even) {
+    background-color: rgb(201, 198, 198);
+}
