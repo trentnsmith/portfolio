@@ -25,22 +25,6 @@ nav {
     z-index: 10;
 }
 
-nav a {
-    color: white;
-    font-size: 24px;
-    line-height: 55px;
-    float: left;
-}
-
-nav ul {
-    float: right;
-}
-
-nav ul li {
-    float: right;
-    list-style: none;
-}
-
 #top-name {
     text-decoration: none;
     color: white;
@@ -56,7 +40,6 @@ nav ul li {
     display: block;
     text-align: center;
     padding: 12px 14px;
-    display: none;
 }
 
 .social-links:hover {
@@ -76,6 +59,7 @@ nav ul li {
     border: none;
     color: white;
     font-size: large;
+    display: none;
 }
 
 .hamburger:hover {
@@ -104,11 +88,8 @@ section {
 }
 
 .bio {
-    padding: 5px 10;
+    padding: 5px 15px;
 }
-
-
-
 
 .myPhoto {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -167,6 +148,7 @@ footer a {
 }
 */
 
+
 @media screen and (min-width: 600px) {
     header {
         flex-direction: row;
@@ -185,3 +167,7 @@ footer a {
         text-align: center;
         padding: 12px 14px;    
 }
+
+    .hamburger {
+        display: none;
+    }
