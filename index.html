@@ -6,46 +6,86 @@
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Chivo&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Overpass&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9e04085ca2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-    <nav role="navigation">Nav</nav>
+    <nav role="navigation" id="nav">
+        <a href="index.html">T.Smith</a>
+        <ul>
+            <li><a href="#">Menu</a></li>
+                <ul>
+                    <li><a href="#">Github</a></li>
+                    <li><a href="#">Linkedin</a></li>
+                    <li><a href="#">Github</a></li>
+                    <li><a href="#">Facebook</a></li>
+                </ul>
+            <li><a href="#">Github</a></li>
+            <li><a href="#">Linkedin</a></li>
+            <li><a href="#">Github</a></li>
+            <li><a href="#">Facebook</a></li>
+        </ul>
+
+         <!--<div class="container">
+           <a id="top-name" class="links" target="_blank" href="https://github.com/trentnsmith">T. Smith
+            </a>
+            <button type="button" class="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div id="dropdown" class="myDropdown">
+                <a class="social-links" target="_blank" href="mailto: trentnsmith@gmail.com">
+                    <i class="far fa-envelope"></i>
+                </a>
+                <a class="social-links" target="_blank" href="https://github.com/trentnsmith">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a class="social-links" target="_blank" href="https://www.linkedin.com/in/trent-smith-5ba737aa/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a class="social-links" target="_blank" href="https://www.facebook.com/trent.smith.752">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </div>
+        </div>-->
+    </nav>
     <main role="main">
-        <header role="banner">
-            <h1>Hello, my name is Trent. I am a Fullstack Engineering student.</h1>
-            <p>I am proficiently working through the Fullstack Engineering Flex bootcamp at Thinkful. 
-                While working in the telecommunications industry for almost 10 years, I was always intrigued
-                by the architecture of apps and computer programs. That intrigue has evolved into a desire
-                to become a web engineer.
-                My interests outside of website development include sports, hiking, and enjoying time with friends.
-                If I'm not working on projects, you will probably find me on the golf course. </p>
-                <img class="myPhoto" src="images/photo_of_me.jpg" alt="photo of me">
+        <header role="banner" class="header">
+            <div class="bio bio-text">
+                <h1>Hello, my name is Trent. I am a Fullstack Engineering student.</h1>
+                <p>I am proficiently working through the Fullstack Engineering Flex bootcamp at Thinkful. 
+                    While working in the telecommunications industry for almost 10 years, I was always intrigued
+                    by the architecture of apps and computer programs. That intrigue has evolved into a desire
+                    to become a web engineer.
+                    My interests outside of website development include sports, hiking, and enjoying time with friends.
+                    If I'm not working on projects, you will probably find me on the golf course. </p>
+            </div>   
+            <div class="bio bio-image"> 
+                <img class="myPhoto" src="images/photo_of_me3.jpg" alt="photo of me">
+            </div>    
         </header>
 
         <section>
-            <div>
+            <div class="header-center">
                 <h3>SOME OF MY WORK</h3>
             </div>
-            <div>  
-                <ul id="thumbs" class="projectThumbs">
-                    <li><a href="https://trentnsmith.github.io/fun_facts_golf_quiz/"><img src="images/fun_facts_golf_quiz_screenshot"></a></li>
-                </ul>
-            
+        </section>
+        
+        <section id="container-center">
+            <div class="projects">  
+                        <a href="https://trentnsmith.github.io/fun_facts_golf_quiz/">
+                            <img class="thumbLinks" src="images/fun_facts_golf_quiz_screenshot.JPG">
+                            <div class="description">
+                                <h4>Fun Facts Golf Quiz</h4>
+                            </div>
+                        </a>
+                        <p>A fun quiz to learn a few things about the game of golf.</p>
             </div>       
         </section>
-
-        <section>
-            Project 2
-        </section>
-
-        <section>
-            Project 3
-        </section>
-
-        <section>
-            Section 4
-        </section>
+    
     </main>
-    <footer role="content_info">Footer</footer>
+    <footer role="content_info" id="footer">
+        <div>
+            <a class="links" href="https://trentnsmith.github.io/portfolio/">© Trent Smith 2020</a>
+    </footer>
 </body>
 </html>
