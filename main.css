@@ -3,11 +3,13 @@
 }
 
 body {
-    font-family: 'Overpass', sans-serif;
-    font-size: 18px;
+    font-family: 'Chivo', sans-serif;
     color: black;
     text-align: center;
-    line-height: 1.5;
+}
+
+h1 {
+    font-family: 'Overpass', sans-serif;
 }
 
 nav,
@@ -76,14 +78,8 @@ section {
     min-height: 200px;
     padding: 1% 0;
     background-color: #ddd;
-    line-height: .5;
 }
 
-
-.thumbLinks {
-    max-width: 350px;
-    max-height: 200px;
-}
 
 .thumbLinks:hover {
     border-radius: 5px;
@@ -101,9 +97,9 @@ section {
     height: auto;
 }
 
-#container-center {
-    display: flex;
-    flex-direction: column;
+.thumbLinks {
+    max-width: 50%;
+    height: auto;
 }
 
 .projects {
