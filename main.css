@@ -48,23 +48,6 @@ nav {
     opacity: .5;
 }
 
-
-.hamburger {
-    float: right;
-    display: block;
-    text-align: center;
-    padding: 12px 14px;
-    background: none;
-    border: none;
-    color: white;
-    font-size: large;
-    display: none;
-}
-
-.hamburger:hover {
-    opacity: .5;
-}
-
 header {
     padding: 12% 0;
     padding-bottom: 5%;
@@ -103,7 +86,7 @@ section {
 }
 
 .projects {
-    background-color: white;
+    background-color: #ffffff;
     border-radius: 5px;
     border: 2px solid #1C304A;
     padding: 10px;
@@ -119,11 +102,11 @@ h4 {
     color: black;
 }
 
-.repo-link {
-    color: orange
+.repo-link, .github-link {
+    color: #A02B0E;
 }
 
-.repo-link:hover {
+.repo-link:hover, .github-link:hover {
     text-decoration: underline;
 }
 
@@ -168,9 +151,5 @@ footer a {
         display: block;
         text-align: center;
         padding: 12px 14px;    
-    }
-
-    .hamburger {
-        display: none;
     }
 }
