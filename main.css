@@ -152,9 +152,10 @@ footer a {
         text-align: center;
         padding: 12px 14px;    
     }
+}
 
+@media screen and (min-width: 720px) {
     #container-center {
         display: flex;
-
     }
 }
