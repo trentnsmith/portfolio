@@ -154,7 +154,7 @@ footer a {
     }
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 900px) {
     #container-center {
         display: flex;
     }
