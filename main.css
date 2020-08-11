@@ -158,4 +158,8 @@ footer a {
     #container-center {
         display: flex;
     }
+
+    .projects {
+        width: 33.33%;
+    }
 }
